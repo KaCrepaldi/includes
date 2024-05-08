@@ -17,8 +17,7 @@
         <h2><?php echo boasVindas("Karla") ?></h2>
         <p><?php echo "Resultado :" .media(2, 4) ?></p>
       
-        <? echo $projeto ?><!-- shorttag = tag curta -->
-        <?= $projeto ?><!--  shorttag = tag curta -->
+         <?= $projeto ?><!--  shorttag = tag curta -->
 
       </div>
     
