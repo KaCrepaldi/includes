@@ -6,7 +6,9 @@ $password = "";
 
 $connection = new mysqli($server, $user, $password);
 
-if($connection->connetion-error) {
-    die("Falha na conexão" . $connection->connetion_error);
+if($connection->$connetion_error) {
+    die("Falha na conexão: " . $connection->$connetion_error);
 
 }
+
+echo "Conexão realizada";
