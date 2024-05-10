@@ -15,7 +15,14 @@
       <div class="container">
         <h1><?php echo $projeto ?></h1>
         <h2><?php echo boasVindas("Karla") ?></h2>
-        <p><?php echo "Resultado :" .media(2, 4) ?></p>
+        
+      <form action="./includes/createContact.php" method="post">
+        <input type="text" name="name" placeholder="Nome">
+        <input type="text" name="lastname" placeholder="Sobrenome">
+        <input type="text" name="email" placeholder="E-mail">
+        <input type="text" name="phone" placeholder="Telefone">
+        <button type="submit">Cadastrar</button>
+      </form>
       
          <?= $projeto ?><!--  shorttag = tag curta -->
 
